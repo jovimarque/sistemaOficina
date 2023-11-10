@@ -1,0 +1,119 @@
+{
+    "packages": [
+        {
+            "name": "breskott/sinesp",
+            "version": "v1.0.0",
+            "version_normalized": "1.0.0.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/Breskott/Sinesp.git",
+                "reference": "8ac171e2ac4284ca99b4fa6338c6a8348e7c0d92"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/Breskott/Sinesp/zipball/8ac171e2ac4284ca99b4fa6338c6a8348e7c0d92",
+                "reference": "8ac171e2ac4284ca99b4fa6338c6a8348e7c0d92",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-libxml": "*",
+                "ext-xml": "*",
+                "php": ">=5.4.0"
+            },
+            "time": "2020-01-30T19:37:27+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "Sinesp\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Breskott",
+                    "email": "contato@breskott.com.br"
+                }
+            ],
+            "description": "SINESP Cidadao API client",
+            "keywords": [
+                "governo",
+                "mandado",
+                "placa",
+                "prisão",
+                "seguranca",
+                "sinesp",
+                "sinesp-client",
+                "utilidade",
+                "veiculos"
+            ],
+            "support": {
+                "issues": "https://github.com/Breskott/Sinesp/issues",
+                "source": "https://github.com/Breskott/Sinesp/tree/v1.0.0"
+            },
+            "install-path": "../breskott/sinesp"
+        },
+        {
+            "name": "deividfortuna/fipe",
+            "version": "2.4.1",
+            "version_normalized": "2.4.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/deividfortuna/fipe.git",
+                "reference": "1a2643de35272bf622131f0e3b815ce8fc2250f9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/deividfortuna/fipe/zipball/1a2643de35272bf622131f0e3b815ce8fc2250f9",
+                "reference": "1a2643de35272bf622131f0e3b815ce8fc2250f9",
+                "shasum": ""
+            },
+            "require": {
+                "ext-curl": "*",
+                "ext-json": "*",
+                "php": ">=5.4.0"
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^4.8"
+            },
+            "time": "2020-02-25T02:54:41+00:00",
+            "type": "library",
+            "installation-source": "dist",
+            "autoload": {
+                "psr-4": {
+                    "DeividFortuna\\Fipe\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Deivid Fortuna",
+                    "email": "deividfortuna@gmail.com"
+                },
+                {
+                    "name": "Alison Monteiro",
+                    "email": "hi@alisonmonteiro.com.br"
+                },
+                {
+                    "name": "Felipe Torretto",
+                    "email": "toreti@gmail.com"
+                }
+            ],
+            "description": "Tabela Fipe Lib",
+            "support": {
+                "issues": "https://github.com/deividfortuna/fipe/issues",
+                "source": "https://github.com/deividfortuna/fipe/tree/v2.4.1"
+            },
+            "install-path": "../deividfortuna/fipe"
+        }
+    ],
+    "dev": true,
+    "dev-package-names": []
+}

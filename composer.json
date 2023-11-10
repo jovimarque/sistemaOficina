@@ -1,0 +1,6 @@
+{
+    "require": {
+        "deividfortuna/fipe": "^2.4",
+        "breskott/sinesp": "^1.0"
+    }
+}

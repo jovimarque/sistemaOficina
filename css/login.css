@@ -1,0 +1,28 @@
+*{
+	margin: 0px auto;
+	padding: 0px;
+}
+
+form{
+	padding: 10px;
+	border: 1px solid black;
+	margin: 120px auto;
+	width: 50%;
+
+}
+
+form input{
+	display: block;
+
+}
+
+button{
+	display:block;	
+	margin: 10px auto;
+	padding: 2px;
+	width: 24%;
+}
+
+h4{
+	text-align: center;
+}
